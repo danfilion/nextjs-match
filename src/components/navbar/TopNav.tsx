@@ -30,7 +30,7 @@ export default function TopNav() {
             <NavLink href='/messages' label="Messages" />
         </NavbarContent>
         <NavbarContent justify='end'>
-            <Button as={Link} href='/login' variant='bordered' className='text-white'>Login</Button>
+            <Button as={Link} href='/login' variant='bordered' className='text-white' prefetch>Login</Button>
             <Button as={Link} href='/register'variant='bordered' className='text-white'>Register</Button>
         </NavbarContent>        
     </Navbar>
